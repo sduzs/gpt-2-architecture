@@ -1,0 +1,39 @@
+svg {
+	overflow: visible;
+}
+
+[role='button'],
+button {
+	svg:focus {
+		outline: none;
+	}
+}
+
+*:focus {
+	outline: none;
+}
+
+// @media (min-width: 1920px) {
+// 	:root {
+// 		font-size: 18px;
+// 	}
+// }
+
+@media (min-width: 2560px) {
+	:root {
+		font-size: 18px;
+        background-color: #e0f2f1; 
+	}
+	
+}
+body{
+ background-color: #ffffe0;
+ color: #000000; /* 添加这行代码，将字体颜色设置为纯黑 */
+
+}
+p {
+    color: #000000;
+}
+.text-content {
+    color: #000000;
+}
